@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+class Userdefined
+{
+public void isEven(int input1)
+{
+if(input1%2==0)
+{
+System.out.println("Even");
+}
+else
+{
+System.out.println("Odd");
+}
+}
+public static void main(String args[])
+{
+Userdefined u=new Userdefined();
+u.isEven(input1);
+}
+}
